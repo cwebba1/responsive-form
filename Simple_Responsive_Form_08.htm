@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Simple Responsive Form &middot; CodePen</title>
+<!-- This: chriscoyier_Simple_Responsive_Form_08.htm
+From: chriscoyier_Simple_Responsive_Form_08_060513.htm
+-->
+<!-- chriscoyier_Simple_Responsive_Form.htm  -->
+<!-- http://codepen.io/chriscoyier/full/DmnlJ  -->
+
+<!-- <link rel="stylesheet" href="css/bootstrap_img.css"> -->
+
+
+<!--  <link rel="stylesheet" href="css/normalize_v2.0.1.css">-->
+  <link rel="stylesheet" href="css/normalize_v2.0.1.css"> 
+  <link rel="stylesheet" href="css/cc_responsive_forms_08.css">
+
+</head>
+
+<body>
+  <form action="#">
+
+ <fieldset>
+<legend> Contact Craig Webb Art </legend>
+<div>
+	<div id="title1" class="i2">
+	<label id="title1" for="first-name">First Name</label>
+	<input id="first-name" name=first-name type=text placeholder="First name" value="" required autofocus size="8" tabindex="1">
+	</div>
+
+	<div id="title2" class="i2 last">
+	<label id="title2" for="last-name">Last Name</label>
+	<input id="last-name" name=last-name type=text placeholder="Last Name" required value="" size="8" tabindex="2">
+	</div>
+</div>
+
+<div>
+	<div id="title3" class="i2">
+	<label id="title3" for="email">Email</label>
+	<input id="email" name=email type=email value=""  placeholder="example@domain.com" size="8" tabindex="3" required>
+	</div>
+
+	<div id="title4" class="i2 last">
+	<label class="desc" id="title4" for="phone">Phone</label>
+	<input id="phone" name=phone type=tel  placeholder="Eg. +1-212-000-0000" required value="" size="8" tabindex="4">
+	</div>
+</div>
+<div>
+	<div id="title5" class="street">
+	<label id="title5" class="address" for="address">Address </label>
+	<input id="address" name=address type= text value="" placeholder="Street Address" size="12" tabindex="5">
+	</div>
+</div>
+<div>
+
+	<div id="title6" class="city">
+	<label id="title6" for="city"> City </label>
+	<input id="city" name=city type=text  placeholder="City" value="" size="8" tabindex="6">
+	</div>
+
+	<div id="title7" class="state">
+	<label id="title7" for="state">State</label>
+<select name="state" tabindex="7"><option>NY</option><option>AL</option><option>AK</option><option>AR</option><option>AZ</option><option>CA</option><option>CO</option><option>CT</option><option>DC</option><option>DE</option><option>FL</option><option>GA</option><option>HI</option><option>ID</option><option>IA</option><option>IL</option><option>IN</option><option>KS</option><option>KY</option><option>LA</option><option>MA</option><option>MD</option><option>ME</option><option>MI</option><option>MO</option><option>MN</option><option>MS</option><option>MT</option><option>NC</option><option>ND</option><option>NE</option><option>NH</option><option>NJ</option><option>NM</option><option>NV</option><option>OH</option><option>OK</option><option>OR</option><option>PA</option><option>RI</option><option>SC</option><option>SD</option><option>TN</option><option>TX</option><option>UT</option><option>VA</option><option>VT</option><option>WA</option><option>WI</option><option>WV</option><option>WY</option></select>
+	</div>
+	<div id="title8" class="zip">
+	<label id="title8" for="zip">Zip</label>
+	<input id="zip" name=zip type=text  placeholder="Zip Code" value="" size="8" tabindex="9">
+	</div>
+</div>
+<div>
+	<div id="title9">
+	<label id="title9" for="comments" class="comments">Comment Here</label>
+	<textarea type="text" name="comments" value="comment" rows="6"  tabindex="9" required></textarea>
+	</div>
+<div>
+<div class="yes">
+<input type="checkbox" checked name="email-updates"  tabindex="10">
+<label for="email-updates" class="wide2">Add to Mail List</label>
+</div>
+<div class="sendbuttonbox">
+<button type=submit name=submit value=submit  tabindex="11">Send!</button>
+</div>
+
+</div>
+
+</fieldset>
+</form>
+
+  <script src="//code.jquery.com/jquery-latest.js"></script>
+</body>
